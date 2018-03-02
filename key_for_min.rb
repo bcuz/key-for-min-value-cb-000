@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
 
 
   # puts x[-1]
-  puts x[-1].inspect
+  puts x.inspect
 end
 
 key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
