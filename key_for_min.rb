@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 
       num = v
       ans = k
-      puts ans
+      # puts ans
     end
   end
 
@@ -19,4 +19,4 @@ def key_for_min_value(name_hash)
   num
 end
 
-key_for_min_value({:blake => 500, :ashley => 2, :adam => 1})
+puts key_for_min_value({:blake => 500, :ashley => 2, :adam => 1})
