@@ -7,10 +7,10 @@ def key_for_min_value(name_hash)
   num = 1000
   name_hash.each do |k,v|
     if v < num
-      puts k
+
       num = v
       ans = k
-
+      puts ans
     end
   end
 
