@@ -5,12 +5,14 @@ def key_for_min_value(name_hash)
 # hold the prev value
 
   num = 1000
-  x = []
-  name_hash.each do |k,v|
+  # x = []
+  x = name_hash.collect do |k,v|
     if v < num
 
       num = v
-      x.push(k)
+      # x.push(k)
+      ans = k
+      ans
       # ans
       # puts ans
     end
