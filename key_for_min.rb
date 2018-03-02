@@ -31,7 +31,8 @@ def key_for_min_value(name_hash)
   # other[-1]
   # other.inspect
 
-  x.compact
+  x.compact!
+  x[-1]
 end
 
 key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
