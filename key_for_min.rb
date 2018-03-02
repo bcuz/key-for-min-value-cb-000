@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
 
       num = v
       ans = k
-      # puts ans
+      puts ans
     end
   end
 
