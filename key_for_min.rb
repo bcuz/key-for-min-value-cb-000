@@ -9,9 +9,7 @@ def key_for_min_value(name_hash)
     if v < num
 
       num = v
-      # x.push(k)
-      ans = k
-      ans
+      k
       # ans
       # puts ans
     end
