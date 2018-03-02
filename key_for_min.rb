@@ -18,19 +18,6 @@ def key_for_min_value(name_hash)
     end
   end
 
-
-  # puts x[-1]
-  # puts x.inspect
-  # # this should be removing all nil values
-  # other = x.collect do |i|
-  #   if i != nil
-  #     i
-  #   end
-  # end
-
-  # other[-1]
-  # other.inspect
-
   x.compact!
   x[-1]
 end
