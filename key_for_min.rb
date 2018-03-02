@@ -20,6 +20,7 @@ def key_for_min_value(name_hash)
 
 
   # puts x[-1]
+  puts x
   other = x.collect do |i|
     if i != nil
       i
