@@ -5,7 +5,6 @@ def key_for_min_value(name_hash)
 # hold the prev value
 
   num = 1000
-  # x = []
   x = name_hash.collect do |k,v|
     if v < num
 
